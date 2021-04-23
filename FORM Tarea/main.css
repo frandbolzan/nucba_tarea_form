@@ -1,0 +1,72 @@
+/* General */
+*{
+    font-family: "raleway";
+}
+
+/* Body */
+body{
+    background: linear-gradient(to right, #125aa7, #011225);
+}
+
+/* Header */
+header{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight:400;
+}
+
+/* Form */
+form{
+    display: block;
+    width: 75%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 3px;
+}
+input, label, textarea, select{
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+label{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+::placeholder{
+    color:grey;
+    padding-left: 10px;
+}
+textarea{
+    padding-left: 5px;
+}
+#password{
+    margin-bottom: 30px;
+}
+#ocupation{
+    margin-bottom: 30px;
+}
+#contact input{
+    width: auto;
+    margin-bottom: 30px;    
+    margin-top: 15px;
+    background-color: royalblue;
+}
+#contact label{
+    padding-right: 5px;
+}
+select{
+    background:royalblue;
+    color: white;
+}
+#yes{
+    width: auto;
+    margin: 20px 0;
+}
+#submit{
+    padding: 10px;
+    font-weight: 800;
+}

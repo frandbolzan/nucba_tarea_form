@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario HTML</title>
+        <meta name="description" content="otro form más">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Complete el siguiente formulario</h1>
+            </header>
+            <form method="POST">
+                <input type="text" id="username" name="username" placeholder="Nombre y Apellido"/>
+                <br>
+                <input type="number" id="age" name="age" placeholder="Edad"/>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Email"/>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Contraseña"/>
+                <br>
+                <label id="ocupation-label" for="ocupation">Ocupación</label>
+                <select name="ocupation" id="ocupation">
+                    <option value="student">Estudiante</option>
+                    <option value="pro">Profesional</option>
+                    <option value="other">Otro</option>
+                </select>
+                <br>
+                <div id="contact">
+                    <label for="contact">Hora de contacto</label>
+                    <br>
+                    <input type="checkbox" id="morning" name="morning" value="morning">
+                    <label for="morning">Mañana</label>
+                    <input type="checkbox" id="afternoon" name="afternoon" value="afternoon">
+                    <label for="afternoon">Mediodía</label>
+                    <input type="checkbox" id="evening" name="evening" value="evening">
+                    <label for="evening">Tarde</label><br>
+                </div>
+                <label for="comment">Agregue un comentario</label>
+                <br>
+                <textarea id="comment" name="comment" rows="4" cols="50">Lorem ipsum.</textarea>
+                <br>
+                <input type="checkbox" id="yes" name="yes" value="yes">
+                <label for="yes">Deseo recibir a mi email más información</label>
+                <br>
+                <input id="submit" type="submit" value="Enviar">
+            </form>
+        </main>
+    </body>
+</html>
